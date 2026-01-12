@@ -19,5 +19,6 @@ public class Main {
 
         Corge corge = new Corge(foo);
         foo.setCorge(corge);
+
     }
 }
