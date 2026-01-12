@@ -8,6 +8,7 @@ public class Foo {
     private List<Baz> bazs;
     private Qux qux;
     private Corge corge;
+    private List<Grault> graults;
 
     public Foo(Bar bar) {
         this.bar = bar;
@@ -45,5 +46,14 @@ public class Foo {
 
     public void setCorge(Corge corge) {
         this.corge = corge;
+    }
+
+    public List<Grault> getGraults() {
+        return graults;
+    }
+
+    public void addGrault() {
+        Grault grault = new Grault(this);
+        this.graults.add(grault);
     }
 }
