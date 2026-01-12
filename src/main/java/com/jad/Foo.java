@@ -42,4 +42,8 @@ public class Foo {
     public Corge getCorge() {
         return corge;
     }
+
+    public void setCorge(Corge corge) {
+        this.corge = corge;
+    }
 }
